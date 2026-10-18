@@ -18,7 +18,7 @@ const { Store } = require("./lib/store");
 const L = require("./lib/logic");
 
 const PORT = Number(process.env.PORT) || 3000;
-const HOST = process.env.HOST || "127.0.0.1";
+const HOST = "0.0.0.0";
 const SESSION_HOURS = 8;
 
 const DB_FILE = path.join(__dirname, "data", "mausoleo.db");
