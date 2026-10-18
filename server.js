@@ -7,7 +7,6 @@
  *    /api/difuntos/buscar, /api/mensajes (públicas, usadas por el sitio).
  *  - Datos: base SQLite en data/mausoleo.db (ver lib/store.js).
  */
-
 const express = require("express");
 const crypto = require("crypto");
 const fs = require("fs");
