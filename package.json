@@ -1,0 +1,10 @@
+{
+  "name": "mausoleo-enaf-oruro",
+  "version": "3.0.0",
+  "description": "Sitio del Mausoleo ENAF Oruro con administrador de registros en JavaScript y base de datos SQLite",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=22.13" },
+  "license": "ISC",
+  "dependencies": { "express": "^5.2.1" }
+}

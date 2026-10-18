@@ -1,0 +1,727 @@
+{
+  "seq": {
+    "usuarios": 1,
+    "responsables": 27,
+    "difuntos": 2,
+    "nichos": 50,
+    "contratos": 2,
+    "mensajes": 1
+  },
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "mausoleo",
+      "nombre": "viuda",
+      "password_hash": "scrypt$1321f93d4f508ec04f6ceb29a35b3df3$2c62796ed75a1131815e510a344e335d5417e918bd772700c2ee35d4bc213b29746cdb067338aba973b2f7a5f8acd42a0192af84724e1eefceec4834c947006b",
+      "session_version": 1,
+      "rol": "principal",
+      "activo": true,
+      "creado": "2026-10-18T00:24:31.830Z"
+    }
+  ],
+  "responsables": [
+    {
+      "id": 1,
+      "nombre": "Nicol Gutierrez",
+      "documento": "12345678",
+      "telefono": "76138484",
+      "email": "bellariverovelasquez@gmail.com",
+      "direccion": "Av minero",
+      "notas": "dede 890 bs bde 5 años"
+    },
+    {
+      "id": 2,
+      "nombre": "Ana Flores Vargas",
+      "documento": "7315824",
+      "telefono": "71234561",
+      "email": "ana.flores.vargas483@email.com",
+      "direccion": "Calle Bolívar #145",
+      "notas": "Debe 500bs de este mes"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos Mendoza Rojas",
+      "documento": "8452193",
+      "telefono": "72345672",
+      "email": "carlos.mendoza.rojas127@email.com",
+      "direccion": "Av. Aroma #218",
+      "notas": ""
+    },
+    {
+      "id": 4,
+      "nombre": "Lucía Pérez  Gutiérrez",
+      "documento": "6924817",
+      "telefono": "74589236",
+      "email": "lucia.perez.gutierrez856@email.com",
+      "direccion": "Calle Sucre #89",
+      "notas": ""
+    },
+    {
+      "id": 5,
+      "nombre": "Diego Ramírez Quispe",
+      "documento": "9184735",
+      "telefono": "|79834125",
+      "email": "diego.ramirez.quispe392@email.com",
+      "direccion": "Av. 6 de Agosto #310",
+      "notas": ""
+    },
+    {
+      "id": 6,
+      "nombre": "Valeria Gómez Mamani",
+      "documento": "7831642",
+      "telefono": "72193684",
+      "email": "valeria.gomez.mamani641@email.com",
+      "direccion": "Calle Potosí #52",
+      "notas": ""
+    },
+    {
+      "id": 7,
+      "nombre": "José Castro Fernández",
+      "documento": "6543981",
+      "telefono": "73468019",
+      "email": "jose.castro.fernandez218@email.com",
+      "direccion": "Av. Busch #411",
+      "notas": ""
+    },
+    {
+      "id": 8,
+      "nombre": "Sofía Ortiz Salazar",
+      "documento": "8742351",
+      "telefono": "75621498",
+      "email": "sofia.ortiz.salazar974@email.com",
+      "direccion": "Calle Cochabamba #77",
+      "notas": ""
+    },
+    {
+      "id": 9,
+      "nombre": "Miguel Herrera Aguilar",
+      "documento": "7219346",
+      "telefono": "78945216",
+      "email": "miguel.herrera.aguilar563@email.com",
+      "direccion": "Av. Cívica #154",
+      "notas": ""
+    },
+    {
+      "id": 10,
+      "nombre": "Camila Cruz Choque",
+      "documento": "8351729",
+      "telefono": "70284935",
+      "email": "camila.cruz.choque149@email.com",
+      "direccion": "Calle Ayacucho #93",
+      "notas": ""
+    },
+    {
+      "id": 11,
+      "nombre": "Andrés Molina Vargas",
+      "documento": "9628174",
+      "telefono": "71839542",
+      "email": "andres.molina.vargas807@email.com",
+      "direccion": "Av. Pagador #265",
+      "notas": ""
+    },
+    {
+      "id": 12,
+      "nombre": "Daniela Ríos Sánchez",
+      "documento": "7145298",
+      "telefono": "76928451",
+      "email": "daniela.rios.sanchez456@email.com",
+      "direccion": "Calle Murguía #180",
+      "notas": ""
+    },
+    {
+      "id": 13,
+      "nombre": "Fernando Arias Tapia",
+      "documento": "8537416",
+      "telefono": "74182690",
+      "email": "fernando.arias.tapia731@email.com",
+      "direccion": "Av. Villarroel #95",
+      "notas": ""
+    },
+    {
+      "id": 14,
+      "nombre": "Natalia Vega Rocha",
+      "documento": "6918752",
+      "telefono": "75391824",
+      "email": "natalia.vega.rocha294@email.com",
+      "direccion": "Calle Camacho #134",
+      "notas": ""
+    },
+    {
+      "id": 15,
+      "nombre": "Kevin Silva Condori",
+      "documento": "9427163",
+      "telefono": "78624539",
+      "email": "kevin.silva.condori618@email.com",
+      "direccion": "Av. Aroma #286",
+      "notas": ""
+    },
+    {
+      "id": 16,
+      "nombre": "Paola Paredes López",
+      "documento": "7384195",
+      "telefono": "72948563",
+      "email": "paola.paredes.lopez875@email.com",
+      "direccion": "Calle Tarapacá #65",
+      "notas": ""
+    },
+    {
+      "id": 17,
+      "nombre": "Ricardo Espinoza Cardozo",
+      "documento": "8142579",
+      "telefono": "76481925",
+      "email": "ricardo.espinoza.cardozo362@email.com",
+      "direccion": "Av. España #197",
+      "notas": ""
+    },
+    {
+      "id": 18,
+      "nombre": "Mariana Villca Alarcón",
+      "documento": "6752814",
+      "telefono": "73852691",
+      "email": "mariana.villca.alarcon580@email.com",
+      "direccion": "Calle Bolívar #356",
+      "notas": ""
+    },
+    {
+      "id": 19,
+      "nombre": "Luis Navia Miranda",
+      "documento": "9534178",
+      "telefono": "79163842",
+      "email": "luis.navia.miranda941@email.com",
+      "direccion": "Av. Montes #141",
+      "notas": ""
+    },
+    {
+      "id": 20,
+      "nombre": "Carla Zamora Céspedes",
+      "documento": "7465923",
+      "telefono": "70592846",
+      "email": "carla.zamora.cespedes237@email.com",
+      "direccion": "Calle Aroma #29",
+      "notas": ""
+    },
+    {
+      "id": 21,
+      "nombre": "Javier Beltrán Soria",
+      "documento": "8629147",
+      "telefono": "77734618",
+      "email": "javier.beltran.soria664@email.com",
+      "direccion": "Av. Del Ejército #388",
+      "notas": ""
+    },
+    {
+      "id": 22,
+      "nombre": "Patricia Flores Quispe",
+      "documento": "7183625",
+      "telefono": "73692584",
+      "email": "patricia.flores.quispe153@email.com",
+      "direccion": "Calle Ballivián #76",
+      "notas": ""
+    },
+    {
+      "id": 23,
+      "nombre": "Marco Mendoza Mamani",
+      "documento": "9346158",
+      "telefono": "72846195",
+      "email": "marco.mendoza.mamani789@email.com",
+      "direccion": "Av. Circunvalación #244",
+      "notas": ""
+    },
+    {
+      "id": 24,
+      "nombre": "Gabriela Pérez Aguilar",
+      "documento": "6871493",
+      "telefono": "75928463",
+      "email": "gabriela.perez.aguilar425@email.com",
+      "direccion": "Calle Bolívar #165",
+      "notas": ""
+    },
+    {
+      "id": 25,
+      "nombre": "Héctor Ramírez Vargas",
+      "documento": "8217539",
+      "telefono": "74361829",
+      "email": "hector.ramirez.vargas906@email.com",
+      "direccion": "Av. Velasco Galvarro #211",
+      "notas": ""
+    },
+    {
+      "id": 26,
+      "nombre": "Verónica Gómez Fernández",
+      "documento": "7592318",
+      "telefono": "78153642",
+      "email": "veronica.gomez.fernandez271@email.com",
+      "direccion": "Calle Potosí #98",
+      "notas": ""
+    },
+    {
+      "id": 27,
+      "nombre": "Luz Mabel Benavidez",
+      "documento": "6603042",
+      "telefono": "78602773",
+      "email": "jgutierrezorocondo@gmail.com",
+      "direccion": "Av 3",
+      "notas": ""
+    }
+  ],
+  "difuntos": [
+    {
+      "id": 1,
+      "nombre": "Carlos Apaza Flores",
+      "documento": "12340000",
+      "nacimiento": "1999-04-05",
+      "fallecimiento": "2026-10-17",
+      "notas": ""
+    },
+    {
+      "id": 2,
+      "nombre": "Wilfredo Gutierrez",
+      "documento": "5003289",
+      "nacimiento": "1958-10-15",
+      "fallecimiento": "2026-10-17",
+      "notas": ""
+    }
+  ],
+  "nichos": [
+    {
+      "id": 1,
+      "codigo": "A-001-01",
+      "sector": "Bloque A",
+      "fila": "1",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 2,
+      "codigo": "A-001-02",
+      "sector": "Bloque A",
+      "fila": "1",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 3,
+      "codigo": "A-001-03",
+      "sector": "Bloque A",
+      "fila": "1",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 4,
+      "codigo": "A-001-04",
+      "sector": "Bloque A",
+      "fila": "1",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 5,
+      "codigo": "A-001-05",
+      "sector": "Bloque A",
+      "fila": "1",
+      "nivel": "5",
+      "notas": ""
+    },
+    {
+      "id": 6,
+      "codigo": "A-002-01",
+      "sector": "Bloque A",
+      "fila": "2",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 7,
+      "codigo": "A-002-02",
+      "sector": "Bloque A",
+      "fila": "2",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 8,
+      "codigo": "A-002-03",
+      "sector": "Bloque A",
+      "fila": "2",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 9,
+      "codigo": "A-002-04",
+      "sector": "Bloque A",
+      "fila": "2",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 10,
+      "codigo": "A-002-05",
+      "sector": "Bloque A",
+      "fila": "2",
+      "nivel": "5",
+      "notas": ""
+    },
+    {
+      "id": 11,
+      "codigo": "A-003-01",
+      "sector": "Bloque A",
+      "fila": "3",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 12,
+      "codigo": "A-003-02",
+      "sector": "Bloque A",
+      "fila": "3",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 13,
+      "codigo": "A-003-03",
+      "sector": "Bloque A",
+      "fila": "3",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 14,
+      "codigo": "A-003-04",
+      "sector": "Bloque A",
+      "fila": "3",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 15,
+      "codigo": "A-003-05",
+      "sector": "Bloque A",
+      "fila": "3",
+      "nivel": "5",
+      "notas": ""
+    },
+    {
+      "id": 16,
+      "codigo": "A-004-01",
+      "sector": "Bloque A",
+      "fila": "4",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 17,
+      "codigo": "A-004-02",
+      "sector": "Bloque A",
+      "fila": "4",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 18,
+      "codigo": "A-004-03",
+      "sector": "Bloque A",
+      "fila": "4",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 19,
+      "codigo": "A-004-04",
+      "sector": "Bloque A",
+      "fila": "4",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 20,
+      "codigo": "A-004-05",
+      "sector": "Bloque A",
+      "fila": "4",
+      "nivel": "5",
+      "notas": ""
+    },
+    {
+      "id": 21,
+      "codigo": "A-005-01",
+      "sector": "Bloque A",
+      "fila": "5",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 22,
+      "codigo": "A-005-02",
+      "sector": "Bloque A",
+      "fila": "5",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 23,
+      "codigo": "A-005-03",
+      "sector": "Bloque A",
+      "fila": "5",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 24,
+      "codigo": "A-005-04",
+      "sector": "Bloque A",
+      "fila": "5",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 25,
+      "codigo": "A-005-05",
+      "sector": "Bloque A",
+      "fila": "5",
+      "nivel": "5",
+      "notas": ""
+    },
+    {
+      "id": 26,
+      "codigo": "A-006-01",
+      "sector": "Bloque A",
+      "fila": "6",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 27,
+      "codigo": "A-006-02",
+      "sector": "Bloque A",
+      "fila": "6",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 28,
+      "codigo": "A-006-03",
+      "sector": "Bloque A",
+      "fila": "6",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 29,
+      "codigo": "A-006-04",
+      "sector": "Bloque A",
+      "fila": "6",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 30,
+      "codigo": "A-006-05",
+      "sector": "Bloque A",
+      "fila": "6",
+      "nivel": "5",
+      "notas": ""
+    },
+    {
+      "id": 31,
+      "codigo": "A-007-01",
+      "sector": "Bloque A",
+      "fila": "7",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 32,
+      "codigo": "A-007-02",
+      "sector": "Bloque A",
+      "fila": "7",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 33,
+      "codigo": "A-007-03",
+      "sector": "Bloque A",
+      "fila": "7",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 34,
+      "codigo": "A-007-04",
+      "sector": "Bloque A",
+      "fila": "7",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 35,
+      "codigo": "A-007-05",
+      "sector": "Bloque A",
+      "fila": "7",
+      "nivel": "5",
+      "notas": ""
+    },
+    {
+      "id": 36,
+      "codigo": "A-008-01",
+      "sector": "Bloque A",
+      "fila": "8",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 37,
+      "codigo": "A-008-02",
+      "sector": "Bloque A",
+      "fila": "8",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 38,
+      "codigo": "A-008-03",
+      "sector": "Bloque A",
+      "fila": "8",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 39,
+      "codigo": "A-008-04",
+      "sector": "Bloque A",
+      "fila": "8",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 40,
+      "codigo": "A-008-05",
+      "sector": "Bloque A",
+      "fila": "8",
+      "nivel": "5",
+      "notas": ""
+    },
+    {
+      "id": 41,
+      "codigo": "A-009-01",
+      "sector": "Bloque A",
+      "fila": "9",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 42,
+      "codigo": "A-009-02",
+      "sector": "Bloque A",
+      "fila": "9",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 43,
+      "codigo": "A-009-03",
+      "sector": "Bloque A",
+      "fila": "9",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 44,
+      "codigo": "A-009-04",
+      "sector": "Bloque A",
+      "fila": "9",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 45,
+      "codigo": "A-009-05",
+      "sector": "Bloque A",
+      "fila": "9",
+      "nivel": "5",
+      "notas": ""
+    },
+    {
+      "id": 46,
+      "codigo": "A-010-01",
+      "sector": "Bloque A",
+      "fila": "10",
+      "nivel": "1",
+      "notas": ""
+    },
+    {
+      "id": 47,
+      "codigo": "A-010-02",
+      "sector": "Bloque A",
+      "fila": "10",
+      "nivel": "2",
+      "notas": ""
+    },
+    {
+      "id": 48,
+      "codigo": "A-010-03",
+      "sector": "Bloque A",
+      "fila": "10",
+      "nivel": "3",
+      "notas": ""
+    },
+    {
+      "id": 49,
+      "codigo": "A-010-04",
+      "sector": "Bloque A",
+      "fila": "10",
+      "nivel": "4",
+      "notas": ""
+    },
+    {
+      "id": 50,
+      "codigo": "A-010-05",
+      "sector": "Bloque A",
+      "fila": "10",
+      "nivel": "5",
+      "notas": ""
+    }
+  ],
+  "contratos": [
+    {
+      "id": 1,
+      "responsable_id": 1,
+      "difunto_id": 1,
+      "nicho_id": 36,
+      "inicio": "2026-10-17",
+      "meses": 3,
+      "fin": "2027-01-17",
+      "precio_centavos": 52000,
+      "moneda": "BOB",
+      "notas": "",
+      "cancelado": false,
+      "creado": "2026-10-18T01:17:08.583Z"
+    },
+    {
+      "id": 2,
+      "responsable_id": 27,
+      "difunto_id": 2,
+      "nicho_id": 1,
+      "inicio": "2026-10-17",
+      "meses": 48,
+      "fin": "2030-10-17",
+      "precio_centavos": 40000,
+      "moneda": "BOB",
+      "notas": "200 debe",
+      "cancelado": false,
+      "creado": "2026-10-18T01:51:41.925Z"
+    }
+  ],
+  "mensajes": [
+    {
+      "id": 1,
+      "nombre": "Jhans",
+      "contacto": "jgutierrezorocondo@gmail.com",
+      "asunto": "registros",
+      "mensaje": "jcfejhjcfllf dlhf hj",
+      "creado": "2026-10-18T02:25:34.685Z"
+    }
+  ]
+}

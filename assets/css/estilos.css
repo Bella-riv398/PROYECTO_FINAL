@@ -1,0 +1,1411 @@
+/*====================================
+    IMPORTAR FUENTES
+====================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+/*====================================
+    VARIABLES DE COLOR
+====================================*/
+
+:root{
+
+    --champagne:#EACEAA;
+    --honey:#964F1B;
+    --whiskey:#D39858;
+    --coffee:#34150F;
+    --balsamico:#380f0f;
+    --blanco:#FFFFFF;
+    --gris:#666666;
+    --fondo:#F7F3EE;
+
+    --exito:#3E7A4C;
+    --alerta:#B4791F;
+    --peligro:#A33B3B;
+
+}
+
+/*====================================
+    ESTILOS GENERALES
+====================================*/
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:var(--fondo);
+    color:#3f0a0a;
+
+}
+
+h1,h2,h3,h4{
+
+    font-family:'Cinzel',serif;
+
+}
+
+section{
+
+    padding:90px 0;
+
+}
+
+/*====================================
+    NAVBAR
+====================================*/
+
+.navbar{
+
+    background:rgba(21,12,12,.95);
+    backdrop-filter:blur(10px);
+    padding:15px 0;
+
+}
+
+.logo{
+
+    width:52px;
+    height:52px;
+    margin-right:12px;
+    object-fit:cover;
+
+}
+
+.navbar-brand{
+
+    color:white !important;
+    font-family:'Cinzel',serif;
+    font-size:20px;
+
+}
+
+.nav-link{
+
+    color:white !important;
+    margin-left:18px;
+    transition:.3s;
+
+}
+
+.nav-link:hover,
+.nav-link.active{
+
+    color:var(--champagne)!important;
+
+}
+
+.navbar-toggler{
+
+    background:white;
+
+}
+
+/*====================================
+    HERO
+====================================*/
+
+.hero{
+
+    height:100vh;
+    min-height:600px;
+
+    background:
+    linear-gradient(rgba(20,10,8,.55),
+    rgba(20,10,8,.65)),
+    url(../img/banners/banner.jpeg);
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+
+}
+
+.hero h1{
+
+    color:white;
+    font-size:65px;
+    margin-bottom:20px;
+
+}
+
+.hero span{
+
+    color:var(--champagne);
+
+}
+
+.hero p{
+
+    color:white;
+    font-size:20px;
+    margin-bottom:35px;
+    line-height:1.8;
+    max-width:600px;
+
+}
+
+/*====================================
+    BOTONES
+====================================*/
+
+.btn-principal{
+
+    background:var(--champagne);
+    color:var(--balsamico);
+    border-radius:35px;
+    padding:14px 35px;
+    font-weight:bold;
+    border:none;
+    transition:.3s;
+    text-decoration:none;
+    display:inline-block;
+
+}
+
+.btn-principal:hover{
+
+    background:var(--whiskey);
+    color:white;
+
+}
+
+.btn-secundario{
+
+    background:transparent;
+    color:white;
+    border:2px solid white;
+    border-radius:35px;
+    padding:14px 35px;
+    margin-left:15px;
+    text-decoration:none;
+    transition:.3s;
+    display:inline-block;
+
+}
+
+.btn-secundario:hover{
+
+    background:white;
+    color:var(--coffee);
+
+}
+
+/*======================================
+    ENCABEZADO DE PÁGINAS INTERNAS
+    (historia, servicios, consulta, galería,
+    contacto, administración, registros)
+======================================*/
+
+.pagina-titulo{
+
+    background:
+    linear-gradient(rgba(20,10,8,.78),rgba(20,10,8,.85)),
+    url(../img/banners/encabezado_de_paginas.jpeg);
+
+    background-size:cover;
+    background-position:center;
+
+    padding:170px 0 70px;
+    color:white;
+
+}
+
+.pagina-titulo .etiqueta{
+
+    color:var(--champagne);
+
+}
+
+.pagina-titulo h1{
+
+    font-size:44px;
+    margin:10px 0 15px;
+
+}
+
+.pagina-titulo p{
+
+    color:#EDE3D6;
+    max-width:600px;
+    margin:0 auto;
+    font-size:17px;
+
+}
+
+/*======================================
+    HISTORIA
+======================================*/
+
+#historia{
+    padding:100px 0;
+    background:#F7F3EE;
+}
+
+#historia h2{
+    font-family:'Cinzel', serif;
+    font-size:42px;
+    color:#34150F;
+    margin-bottom:25px;
+}
+
+#historia p{
+    max-width:850px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.9;
+    color:#555;
+}
+
+/*======================================
+    MISIÓN Y VISIÓN
+======================================*/
+
+.mision-vision{
+    padding:90px 0;
+    background:#FFFFFF;
+}
+
+.mision-vision .card{
+
+    border:none;
+    border-radius:20px;
+    padding:45px 35px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.mision-vision .card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.mision-vision i{
+
+    font-size:60px;
+    color:#964F1B;
+    margin-bottom:20px;
+
+}
+
+.mision-vision h3{
+
+    font-family:'Cinzel',serif;
+    color:#34150F;
+    margin-bottom:20px;
+
+}
+
+.mision-vision p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+
+/*======================================
+    SERVICIOS
+======================================*/
+
+#servicios,
+.servicios{
+
+    padding:100px 0;
+    background:#EACEAA;
+
+}
+
+#servicios h2,
+.servicios h2{
+
+    font-family:'Cinzel',serif;
+    color:#34150F;
+    margin-bottom:60px;
+
+}
+
+.servicio{
+
+    background:white;
+    border-radius:20px;
+    padding:40px 30px;
+    text-align:center;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    height:100%;
+
+}
+
+.servicio:hover{
+
+    transform:translateY(-12px);
+
+}
+
+.servicio i{
+
+    font-size:55px;
+    color:#964F1B;
+    margin-bottom:20px;
+
+}
+
+.icono-servicio i{
+
+    font-size:55px;
+    color:#964F1B;
+    margin-bottom:20px;
+
+}
+
+.servicio h4{
+
+    font-family:'Cinzel',serif;
+    color:#34150F;
+    margin-bottom:15px;
+
+}
+
+.servicio p{
+
+    color:#666;
+
+}
+
+.enlace-servicio{
+
+    text-decoration:none;
+    display:block;
+    height:100%;
+
+}
+
+.ver-mas{
+
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    color:var(--honey);
+    font-weight:600;
+    margin-top:12px;
+
+}
+
+/*======================================
+    CONSULTA
+======================================*/
+
+#consulta,
+.consulta-seccion{
+
+    padding:100px 0;
+    background:#FFFDFB;
+
+}
+
+#consulta h2,
+.consulta-seccion h2{
+
+    text-align:center;
+    color:#34150F;
+    margin-bottom:40px;
+
+}
+
+#consulta form,
+.consulta-seccion form{
+
+    max-width:700px;
+    margin:auto;
+
+}
+
+#consulta .form-control,
+.consulta-seccion .form-control{
+
+    height:60px;
+    border-radius:40px;
+    border:2px solid #D39858;
+    padding-left:25px;
+
+}
+
+#consulta .form-control:focus,
+.consulta-seccion .form-control:focus{
+
+    border-color:var(--honey);
+    box-shadow:0 0 0 .2rem rgba(150,79,27,.15);
+
+}
+
+#consulta button,
+.consulta-seccion button{
+
+    width:100%;
+    height:55px;
+    border-radius:40px;
+    margin-top:20px;
+
+}
+
+.resultado-consulta{
+
+    max-width:700px;
+    margin:35px auto 0;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    display:none;
+
+}
+
+.resultado-consulta.mostrar{
+
+    display:block;
+
+}
+
+.resultado-consulta .estado{
+
+    margin-top:8px;
+
+}
+
+.consulta-info{
+
+    max-width:700px;
+    margin:0 auto 30px;
+    text-align:center;
+    color:#666;
+
+}
+
+/*======================================
+    REGISTROS / ADMINISTRACIÓN
+======================================*/
+
+.registros-pagina,
+.administracion-pagina{
+
+    padding:90px 0;
+
+}
+
+.tabla-registros{
+
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.tabla-registros thead{
+
+    background:var(--coffee);
+    color:white;
+
+}
+
+.tabla-registros thead th{
+
+    font-family:'Cinzel',serif;
+    font-weight:600;
+    letter-spacing:.5px;
+    border:none;
+    padding:18px 20px;
+
+}
+
+.tabla-registros tbody td{
+
+    vertical-align:middle;
+    padding:16px 20px;
+    color:#333;
+
+}
+
+.tabla-registros tbody tr:hover{
+
+    background:#FBF6EF;
+
+}
+
+.estado{
+
+    display:inline-block;
+    padding:6px 16px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+
+}
+
+.estado.vigente{
+
+    background:rgba(62,122,76,.12);
+    color:var(--exito);
+
+}
+
+.estado.renovar{
+
+    background:rgba(180,121,31,.14);
+    color:var(--alerta);
+
+}
+
+.estado.vencido{
+
+    background:rgba(163,59,59,.13);
+    color:var(--peligro);
+
+}
+
+.estado.programado{
+
+    background:rgba(60,100,160,.12);
+    color:#2f5a96;
+
+}
+
+.estado.cancelado{
+
+    background:#e8e3de;
+    color:#5b4f47;
+
+}
+
+.estado.sin-contrato{
+
+    background:#f1ede9;
+    color:#7a6e66;
+    font-weight:500;
+
+}
+
+.info-pabellones{
+
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+    height:100%;
+
+}
+
+.info-pabellones i{
+
+    font-size:34px;
+    color:var(--honey);
+    margin-bottom:14px;
+
+}
+
+.banner-administracion{
+
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:20px;
+    margin-bottom:50px;
+
+}
+
+/*======================================
+    GALERÍA
+======================================*/
+
+#galeria,
+.galeria-pagina{
+
+    padding:100px 0;
+    background:#F7F3EE;
+
+}
+
+#galeria h2,
+.galeria-pagina h2{
+
+    color:#34150F;
+    margin-bottom:50px;
+
+}
+
+.item-galeria{
+
+    position:relative;
+    border-radius:20px;
+    overflow:hidden;
+    margin-bottom:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.10);
+
+}
+
+.item-galeria img{
+
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    transition:.4s;
+    display:block;
+
+}
+
+.item-galeria:hover img{
+
+    transform:scale(1.08);
+
+}
+
+.item-galeria .etiqueta-foto{
+
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:14px 18px;
+    background:linear-gradient(transparent,rgba(20,10,8,.75));
+    color:white;
+    font-size:14px;
+    opacity:0;
+    transition:.3s;
+
+}
+
+.item-galeria:hover .etiqueta-foto{
+
+    opacity:1;
+
+}
+
+/*======================================
+    CONTACTO
+======================================*/
+
+.contacto-pagina{
+
+    padding:100px 0;
+    background:#FFFDFB;
+
+}
+
+.tarjeta-contacto{
+
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    height:100%;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+    transition:.3s;
+
+}
+
+.tarjeta-contacto:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.tarjeta-contacto i{
+
+    font-size:34px;
+    color:var(--honey);
+    margin-bottom:16px;
+
+}
+
+.tarjeta-contacto h4{
+
+    font-family:'Cinzel',serif;
+    color:var(--coffee);
+    margin-bottom:8px;
+    font-size:18px;
+
+}
+
+.tarjeta-contacto p,
+.tarjeta-contacto a{
+
+    color:#666;
+    text-decoration:none;
+
+}
+
+.mapa-contacto{
+
+    width:100%;
+    height:380px;
+    border:0;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.formulario-contacto{
+
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,.06);
+
+}
+
+.formulario-contacto .form-control,
+.formulario-contacto .form-select{
+
+    border-radius:12px;
+    border:1.5px solid #E4D8C7;
+    padding:12px 16px;
+    margin-bottom:18px;
+
+}
+
+.formulario-contacto .form-control:focus,
+.formulario-contacto .form-select:focus{
+
+    border-color:var(--honey);
+    box-shadow:0 0 0 .2rem rgba(150,79,27,.15);
+
+}
+
+/*======================================
+    FOOTER
+======================================*/
+
+footer{
+
+    background:#150C0C;
+    color:white;
+    padding:70px 0 25px;
+
+}
+
+footer h3{
+
+    font-family:'Cinzel',serif;
+    color:#EACEAA;
+
+}
+
+footer p{
+
+    color:#DDD;
+
+}
+
+footer hr{
+
+    border-color:#555;
+    margin:30px 0;
+
+}
+
+.footer-titulo{
+
+    font-family:'Cinzel',serif;
+    color:var(--champagne);
+    font-size:17px;
+    margin-bottom:18px;
+
+}
+
+.footer-enlaces{
+
+    list-style:none;
+
+}
+
+.footer-enlaces li{
+
+    margin-bottom:10px;
+
+}
+
+.footer-enlaces a{
+
+    color:#DDD;
+    text-decoration:none;
+    transition:.3s;
+
+}
+
+.footer-enlaces a:hover{
+
+    color:var(--champagne);
+
+}
+
+.footer-redes a{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(255,255,255,.08);
+    color:white;
+    margin-right:10px;
+    text-decoration:none;
+    transition:.3s;
+
+}
+
+.footer-redes a:hover{
+
+    background:var(--honey);
+
+}
+
+/*======================================
+    CONOCE MÁS
+======================================*/
+
+.conoce{
+
+    background:#FFFDFB;
+    padding:110px 0;
+
+}
+
+.etiqueta{
+
+    display:inline-block;
+    color:#964F1B;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:3px;
+    margin-bottom:12px;
+
+}
+
+.conoce h2{
+
+    font-family:'Cinzel',serif;
+    color:#34150F;
+    font-size:42px;
+    margin-bottom:15px;
+
+}
+
+.descripcion-seccion{
+
+    color:#777;
+    max-width:650px;
+    margin:auto;
+    line-height:1.8;
+
+}
+
+
+/*======================================
+    IMAGEN HISTORIA
+======================================*/
+
+.imagen-historia{
+
+    position:relative;
+    overflow:hidden;
+    border-radius:25px;
+
+}
+
+.imagen-historia img{
+
+    width:100%;
+    height:420px;
+    object-fit:cover;
+    display:block;
+    transition:.5s;
+
+}
+
+.imagen-historia:hover img{
+
+    transform:scale(1.05);
+
+}
+
+
+/*======================================
+    TEXTOS
+======================================*/
+
+.numero-seccion{
+
+    color:#964F1B;
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing:3px;
+
+}
+
+.conoce h3{
+
+    font-family:'Cinzel',serif;
+    color:#34150F;
+    font-size:30px;
+    margin:12px 0 20px;
+
+}
+
+.conoce p{
+
+    color:#666;
+    line-height:1.8;
+
+}
+
+
+/*======================================
+    ORÍGENES
+======================================*/
+
+.origenes{
+
+    background:#F7F3EE;
+    padding:50px;
+    border-radius:25px;
+    margin-top:70px;
+
+}
+
+.dato-institucion{
+
+    background:white;
+    padding:35px 25px;
+    border-radius:18px;
+    text-align:center;
+    height:100%;
+    box-shadow:0 8px 20px rgba(52,21,15,.08);
+    transition:.4s;
+
+}
+
+.dato-institucion:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.icono-dato{
+
+    width:70px;
+    height:70px;
+    margin:auto;
+    margin-bottom:20px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border-radius:50%;
+
+    background:#EACEAA;
+    color:#34150F;
+
+    font-size:30px;
+
+}
+
+.dato-institucion h4{
+
+    color:#34150F;
+    font-family:'Cinzel',serif;
+    font-size:19px;
+
+}
+
+.dato-institucion p{
+
+    color:#964F1B;
+    font-size:22px;
+    font-weight:600;
+
+}
+
+
+/*======================================
+    ACTUALIDAD
+======================================*/
+
+.actualidad{
+
+    padding:50px 0;
+
+}
+
+.estadistica-actual{
+
+    background:#34150F;
+    border-radius:25px;
+    padding:35px;
+
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    flex-wrap:wrap;
+    gap:20px;
+
+    color:white;
+
+}
+
+.estadistica-actual div{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.estadistica-actual i{
+
+    font-size:35px;
+    color:#EACEAA;
+    margin-bottom:10px;
+
+}
+
+.estadistica-actual span{
+
+    font-size:35px;
+    font-weight:bold;
+    color:#D39858;
+
+}
+
+.estadistica-actual small{
+
+    color:#EACEAA;
+
+}
+
+
+/*======================================
+    COMPROMISO
+======================================*/
+
+.compromiso{
+
+    background:#150C0C;
+    color:white;
+    padding:55px;
+    border-radius:25px;
+
+}
+
+.compromiso h3{
+
+    color:#EACEAA;
+
+}
+
+.compromiso p{
+
+    color:#ddd;
+
+}
+
+.icono-compromiso{
+
+    width:120px;
+    height:120px;
+
+    border-radius:50%;
+
+    background:#EACEAA;
+    color:#34150F;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    font-size:55px;
+
+    margin:auto;
+
+}
+
+
+/*======================================
+    CONOCER HISTORIA COMPLETA
+======================================*/
+
+.conocer-completo{
+
+    padding:50px 20px;
+
+}
+
+.conocer-completo h3{
+
+    font-size:30px;
+
+}
+
+.conocer-completo p{
+
+    margin-bottom:25px;
+
+}
+
+
+/*======================================
+    MODAL
+======================================*/
+
+.modal-content{
+
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+
+}
+
+.modal-header{
+
+    background:#34150F;
+    color:white;
+    padding:25px 30px;
+
+}
+
+.modal-title{
+
+    font-family:'Cinzel',serif;
+
+}
+
+.modal-body{
+
+    padding:35px;
+
+}
+
+.modal-body h4{
+
+    color:#964F1B;
+    font-family:'Cinzel',serif;
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+
+.modal-body p{
+
+    color:#555;
+    line-height:1.8;
+
+}
+
+.btn-secundario-modal{
+
+    background:#34150F;
+    color:white;
+    border:none;
+    border-radius:25px;
+    padding:10px 25px;
+
+}
+
+.btn-secundario-modal:hover{
+
+    background:#964F1B;
+    color:white;
+
+}
+
+
+/*======================================
+    RESPONSIVE
+======================================*/
+
+@media(max-width:991px){
+
+.hero h1{
+
+    font-size:50px;
+
+}
+
+.hero{
+
+    text-align:center;
+
+}
+
+.hero p{
+
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.navbar-brand{
+
+    font-size:15px;
+
+}
+
+.servicio{
+
+    margin-bottom:30px;
+
+}
+
+.mision-vision .card{
+
+    margin-bottom:30px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+    font-size:38px;
+
+}
+
+#historia h2,
+#servicios h2,
+#consulta h2,
+#galeria h2{
+
+    font-size:32px;
+
+}
+
+.pagina-titulo{
+
+    padding:150px 0 55px;
+
+}
+
+.pagina-titulo h1{
+
+    font-size:32px;
+
+}
+
+.estadistica-actual{
+
+    justify-content:center;
+
+}
+
+}
+
+@media(max-width:768px){
+
+    .conoce h2{
+
+        font-size:32px;
+
+    }
+
+    .imagen-historia img{
+
+        height:300px;
+
+    }
+
+    .origenes{
+
+        padding:30px 20px;
+
+    }
+
+    .compromiso{
+
+        padding:35px 25px;
+        text-align:center;
+
+    }
+
+    .icono-compromiso{
+
+        margin-bottom:30px;
+
+    }
+
+    .estadistica-actual{
+
+        margin-top:30px;
+
+    }
+}
+/* MENÚ DESPLEGABLE DE SERVICIOS */
+
+.menu-servicios {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 190px;
+    margin: 0;
+    padding: 8px 0;
+    list-style: none;
+    background-color: #3b2116;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+    /* Oculto inicialmente */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.25s ease;
+     z-index: 1000;
+}
+
+.submenu li {
+    width: 100%;
+}
+
+.submenu li a {
+    display: block;
+    padding: 12px 18px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.submenu li a:hover {
+    background-color: #8b5a2b;
+    color: white;
+}
+
+/* Mostrar al pasar el cursor */
+
+.menu-servicios:hover .submenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
