@@ -1408,33 +1408,5 @@ footer hr{
     visibility: visible;
     transform: translateY(0);
 }
-/* Menú hamburguesa: tres líneas negras */
-.navbar-toggler-icon {
-    background-image: linear-gradient(
-        #000, #000
-    ) !important;
-    background-size: 24px 2px !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    position: relative;
-    width: 24px;
-    height: 24px;
-}
 
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 24px;
-    height: 2px;
-    background-color: #000;
-}
 
-.navbar-toggler-icon::before {
-    top: 5px;
-}
-
-.navbar-toggler-icon::after {
-    bottom: 5px;
-}
