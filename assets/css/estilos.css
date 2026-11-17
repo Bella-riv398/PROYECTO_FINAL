@@ -112,7 +112,9 @@ section{
     background:white;
 
 }
-
+.navbar-toggler-icon {
+    filter: brightness(0);
+}
 /*====================================
     HERO
 ====================================*/
