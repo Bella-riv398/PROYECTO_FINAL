@@ -1408,4 +1408,19 @@ footer hr{
     visibility: visible;
     transform: translateY(0);
 }
-
+.navbar-toggler-icon{
+    background-image: none ¡¡important;
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+.navbar-toggler-icon::before{
+    content:"";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background-color:#000;
+    box-shadow: 0 6 px o #000, 0 12px 0 #000;
+}
